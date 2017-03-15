@@ -28,5 +28,46 @@ public class Plataforma {
 	@OneToMany(cascade= CascadeType.ALL,mappedBy="plataforma")
 	private List<Juego> juegos;
 	
+	
+	
+
+	public Plataforma() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Plataforma(String id, String nombre, List<Juego> juegos) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.juegos = juegos;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public List<Juego> getJuegos() {
+		return juegos;
+	}
+
+	public void setJuegos(List<Juego> juegos) {
+		this.juegos = juegos;
+	}
+	
+	
+	
 
 }

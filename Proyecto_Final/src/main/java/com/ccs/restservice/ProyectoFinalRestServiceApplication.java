@@ -1,12 +1,12 @@
-package com.example;
+package com.ccs.restservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProyectoFinalApplication {
+public class ProyectoFinalRestServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProyectoFinalApplication.class, args);
+		SpringApplication.run(ProyectoFinalRestServiceApplication.class, args);
 	}
 }
